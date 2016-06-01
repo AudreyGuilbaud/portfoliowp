@@ -10,7 +10,6 @@ body {
 
 .divLong2 {
     width : 100%;
-    height : 900px;
 }
 
 
@@ -40,23 +39,20 @@ body {
     height : 60px;
 }
 
-ul.menuRea {
+ul.menuReaB, ul.menuReaR {
     list-style-type:none;
     text-align: center; 
     margin-top : 10px;
 }
 
-li.menuRea {
+li.menuReaB, li.menuReaR {
     display:inline-block;
-    width:40%;
 }
 
-ul li.menuRea a {
+ul li.menuReaB a, ul li.menuReaR a {
     display:block;
     float:left;   
     width : 100%;
-    background-color:#61636b;
-    color:#ffffff;
     text-decoration:none;
     text-align:center;
     padding:5px;
@@ -66,11 +62,28 @@ ul li.menuRea a {
     border : solid 1px white ;
 }
 
-ul li.menuRea a:hover {
+ul li.menuReaB a {
+    background-color:#61636b;
+    color:#ffffff;
+}
+
+ul li.menuReaR a {
+    background-color:#ee2d23;
+    color:#ffffff;
+}
+
+ul li.menuReaB a:hover, ul li.menuReaR a:hover {
+    text-decoration:none; 
+} 
+
+ul li.menuReaB a:hover {
     background-color: white;
     color : #61636b;
-    text-decoration:none; 
+}
 
-} 
+ul li.menuReaR a:hover {
+    background-color: white;
+    color : #ee2d23;
+}
 
 </style>

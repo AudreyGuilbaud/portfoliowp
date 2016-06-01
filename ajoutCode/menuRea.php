@@ -49,8 +49,8 @@ if (strpos($url, 'situations-professionnelles') !== false) { ?>
 <div class="divLong3 blanc marge">
     <ul class="menuReaPrincip">
         <li class="menuReaPrincip"><a href="index.php/realisations/stages"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/stages-Copie-1-e1464395834803.jpeg"></a></li>
-        <li class="menuReaPrincip"><a href="index.php/realisations/travaux-pratiques"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/tp-Copie-Copie-1-e1464395864454.jpeg"></a></li>
         <li class="menuReaPrincip"><a href="index.php/realisations/projets-personnels"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/projets-personnels-Copie-1-e1464395848814.jpeg"></a></li>
+        <li class="menuReaPrincip"><a href="index.php/realisations/travaux-pratiques"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/tp-Copie-Copie-1-e1464395864454.jpeg"></a></li>
     </ul> 
 </div>
 <?php
@@ -58,8 +58,8 @@ if (strpos($url, 'situations-professionnelles') !== false) { ?>
 if (strpos($url, 'travaux-pratiques') !== false) { ?>
 <div class="divLong3 blanc marge">
     <ul class="menuReaPrincip">
-        <li class="menuReaPrincip"><a href="index.php/realisations/stages"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/stages-Copie-1-e1464395834803.jpeg"></a></li>
         <li class="menuReaPrincip"><a href="index.php/realisations/situations-professionnelles"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/ppe-Copie-1-e1464394786715.jpeg"></a></li>
+        <li class="menuReaPrincip"><a href="index.php/realisations/stages"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/stages-Copie-1-e1464395834803.jpeg"></a></li>
         <li class="menuReaPrincip"><a href="index.php/realisations/projets-personnels"><img src="<?php echo bloginfo('url') ;?>/wp-content/uploads/2016/05/projets-personnels-Copie-1-e1464395848814.jpeg"></a></li>
     </ul> 
 </div>
@@ -76,5 +76,6 @@ if (strpos($url, 'projets-personnels') !== false) { ?>
 <?php
 }
 ?>
+
 
 
