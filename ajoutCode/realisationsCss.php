@@ -37,6 +37,8 @@ body {
     width : 60%;
     margin-left : 20%;
     height : 60px;
+    text-align : center ;
+    padding-top : 10px ;
 }
 
 ul.menuReaB, ul.menuReaR {
