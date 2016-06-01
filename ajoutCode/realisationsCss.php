@@ -44,7 +44,6 @@ body {
 ul.menuReaB, ul.menuReaR {
     list-style-type:none;
     text-align: center; 
-    margin-top : 10px;
 }
 
 li.menuReaB, li.menuReaR {
