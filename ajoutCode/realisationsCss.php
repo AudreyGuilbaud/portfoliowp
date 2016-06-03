@@ -1,4 +1,5 @@
 <style>
+
 body {
     overflow-x: hidden;
     overflow-y: auto;
@@ -10,8 +11,8 @@ body {
 
 .divLong2 {
     width : 100%;
+    height : auto ;
 }
-
 
 
 .bleu {
@@ -34,8 +35,9 @@ body {
 
 .divCentre {
     border : solid 1px transparent ;
-    width : 60%;
-    margin-left : 20%;
+    //border : solid 1px black ;
+    width : 80%;
+    margin-left : 10%;
     height : 60px;
     text-align : center ;
     padding-top : 10px ;
@@ -56,7 +58,7 @@ ul li.menuReaB a, ul li.menuReaR a {
     width : 100%;
     text-decoration:none;
     text-align:center;
-    padding:5px;
+    padding : 5px ;
     height : 40px; 
     font-size : 24px;
     font-variant: small-caps;
@@ -85,6 +87,32 @@ ul li.menuReaB a:hover {
 ul li.menuReaR a:hover {
     background-color: white;
     color : #ee2d23;
+}
+
+.imageGauche {
+    float : left ;
+    margin-left : 6% ;
+    margin-top : 30px ;
+    width : 30%;
+}
+
+.imageDroite {
+    float : right ;
+    margin-right : 6% ;
+    margin-top : 30px ;
+    width : 30%;
+}
+
+.texteGauche {
+    margin-right : 38% ;
+    margin-top : 30px ;
+    width : 54%
+}
+
+.texteDroite {
+    margin-left : 38% ;;
+    margin-top : 30px ;
+    width : 54%;
 }
 
 </style>
