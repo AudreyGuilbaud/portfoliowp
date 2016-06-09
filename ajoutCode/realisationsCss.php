@@ -132,4 +132,25 @@ ul li.menuReaR a:hover {
     padding-bottom : 30px;
 }
 
+.titre1 {
+    font-size : 30px ;
+    font-variant : small-caps ;
+    text-align : center;
+}
+
+.titre2 {
+    font-size : 24px ;
+    font-variant : small-caps ;
+}
+
+.titre3 {
+    font-weight : bold ;
+}
+
+.italique {
+    font-style:italic ;
+    font-size : 16px ;
+}
+
+
 </style>
