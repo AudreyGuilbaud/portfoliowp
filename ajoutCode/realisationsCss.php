@@ -114,4 +114,22 @@ ul li.menuReaR a:hover {
     width : 54%;
 }
 
+.texteOnlyG {
+    float : left ;
+    margin-left : 6% ;
+    width : 42%;
+}
+
+.texteOnlyD {
+    margin-left : 52%;
+    width : 42%;
+}
+
+.pad {
+    padding-left : 6%;
+    padding-right : 6%;
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
 </style>
