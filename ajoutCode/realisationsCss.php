@@ -133,13 +133,13 @@ ul li.menuReaR a:hover {
 }
 
 .titre1 {
-    font-size : 30px ;
+    font-size : 35px ;
     font-variant : small-caps ;
     text-align : center;
 }
 
 .titre2 {
-    font-size : 24px ;
+    font-size : 30px ;
     font-variant : small-caps ;
 }
 
