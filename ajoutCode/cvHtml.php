@@ -1,5 +1,5 @@
 <div class="divLong blanc" style="margin-top:-120px">
-    <div class="divLong2 bleu" id="competences">
+    <div class="divLong2 bleu" id="competences1">
         <div class="divLong2 bleu pad titre1">Compétences</div>
         <div class="texteOnlyG ">
             <span class="titre2">Langages</span>
@@ -19,7 +19,7 @@
             <br><span class="titre3">Java</span>
             <br><span class="italique">Réalisation d'une petite application Android, Réalisation d'un jeu-vidéo 2D en réseau</span>
         </div>
-       <div class="texteOnlyD">
+        <div class="texteOnlyD">
             <span class="titre2">Bases de données et modélisation</span>
             <br>
             <br><span class="titre3">SQL et SQL/PSM</span>
@@ -34,11 +34,16 @@
             <br>
             <br>
             <br>
-            <br>
-            
-            
+            <br>           
         </div>
-        <div class="texteOnlyG" style="margin-top:30px">
+        <div class="divCentre bas">
+            <a href="#competences2" class="scroll basBlancB" title="Vers autres compétences"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg" 
+                                                                                        onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleuHover-e1464822759168.jpg'"
+                                                                                        onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg'"></a>
+        </div>
+    </div>
+    <div class="divLong2 blanc" id="competences2">
+        <div class="texteOnlyG" >
             <span class="titre2">Outils</span>
             <br>
             <br><span class="titre3">CMS</span>
@@ -53,9 +58,9 @@
             <br><span class="titre3">Documentation technique et utilisateur</span>
             <br><span class="italique">Génération de documentation automatique, Rédaction de documents techniques (spécifications fonctionnelles, dossier de sécurité), Rédaction de tutoriels</span>
             <br>
-            
+
         </div>
-        <div class="texteOnlyD" style="margin-top:30px">
+        <div class="texteOnlyD" style="margin-top:50px">
             <span class="titre2">Langues</span>
             <br>
             <br><span class="titre3">Anglais</span>
@@ -72,13 +77,15 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
+           
         </div>
-        <div class="divCentre bas">
-            <a href="#experience" class="scroll basBlancB" title="Vers Expérience"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg" 
-                                                                                        onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleuHover-e1464822759168.jpg'"
-                                                                                        onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg'"></a>
+        <div class="divCentre">
+            <a href="#competences1" class="scroll" title="Vers Compétences de programmation"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBlancB-e1464822830732.jpg" 
+                                                                              onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBlancBHover-e1464822821425.jpg'"
+                                                                              onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBlancB-e1464822830732.jpg'"></a>
+            <a href="#experience" class="scroll" title="Vers Expérience"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancB-e1464822407938.jpg" 
+                                                                        onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancBHover-e1464822040880.jpg'"
+                                                                        onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancB-e1464822407938.jpg'"></a>
         </div>
     </div>
     <div class="divLong2 rouge" id="experience">
@@ -88,7 +95,7 @@
             <br><span class="titre3">Février 2016 : Stage de 2nd année BTS Services Informatiques aux Organisations</span>
             <br><span>Win Novation Informatique - Orvault</span>
             <br><span class="italique">Développement d’une partie d’une application Web de Gestion de Comité d’Entreprise en PHP à partir d’un existant en C++. 
-                                        Transfert de la base de données de Paradox à MySQL, amélioration de la modélisation, développement des parties identification, menu principal, adhérents et sociétés.</span>
+                Transfert de la base de données de Paradox à MySQL, amélioration de la modélisation, développement des parties identification, menu principal, adhérents et sociétés.</span>
             <br>
             <br><span class="titre3">Juin 2015 : Stage de 1ère année BTS Services Informatiques aux Organisations</span>
             <br><span>Caisse d’Assurance Retraite et de la Santé Au Travail - Pays de la Loire - Nantes</span>
@@ -97,7 +104,7 @@
             <br>
             <br><span class="titre3">Cercle familial</span>
             <br><span class="italique">Installation de matériel informatique - Dépannage des ordinateurs personnels - Gestion et dépannage du réseau - Réparation d'ordinateurs fixes - 
-                                        Diagnostic et résolution des pannes</span>
+                Diagnostic et résolution des pannes</span>
             <br>
             <br><span class="titre3">Cercle associatif</span>
             <br><span class="italique">Gestion de serveurs de communication (Mumble, Teamspeak), Création et hébergement d'un serveur Teamspeak, Gestion de serveurs de jeux et installation de fonctionnalités, Administration de forums</span>
@@ -105,7 +112,7 @@
             <br>
         </div>
         <div class="divCentre">
-            <a href="#competences" class="scroll" title="Vers Compétences"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg" 
+            <a href="#competences2" class="scroll" title="Vers Compétences"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg" 
                                                                                 onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRougeHover-e1464822716205.jpg'"
                                                                                 onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg'"></a>
             <a href="#formation" class="scroll" title="Vers Formation"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basRouge-e1464822744589.jpg" 
@@ -130,18 +137,18 @@
                                                                               onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBlancBHover-e1464822821425.jpg'"
                                                                               onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBlancB-e1464822830732.jpg'"></a>
             <a href="#loisirs" class="scroll" title="Vers Loisirs"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancB-e1464822407938.jpg" 
-                                                                                      onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancBHover-e1464822040880.jpg'"
-                                                                                      onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancB-e1464822407938.jpg'"></a>
+                                                                        onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancBHover-e1464822040880.jpg'"
+                                                                        onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBlancB-e1464822407938.jpg'"></a>
         </div>
     </div>
     <div class="divLong2 bleu" id="loisirs">
         <div class="divLong2 bleu pad titre1">Centres d'intérêt</div>
         <div style="margin-left : 6% ; margin-top:-30px ;">
             <br><span class="titre3">Musique</span>
-            <br><span>Ecoute, Pratique & Apprentissage</span>
+            <br><span>Ecoute & Pratique</span>
             <br><span class="italique">Classique & Soundtracks, Rock international, Celtique, Jazz, Pop</span>
             <br><span class="italique">Musique théorique, piano & claviers, guitare</span>
-            
+
             <br>
             <br><span class="titre3">Littérature</span>
             <br><span>Lecture & Ecriture</span>
@@ -153,8 +160,8 @@
         </div>
         <div class="divCentre">
             <a href="#formation" class="scroll" title="Vers Formation"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBleu-e1464822766413.jpg" 
-                                                                              onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBleuHover-e1464822751465.jpg'"
-                                                                              onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBleu-e1464822766413.jpg'"></a>
+                                                                            onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBleuHover-e1464822751465.jpg'"
+                                                                            onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautBleu-e1464822766413.jpg'"></a>
             <a href="#telechargement" class="scroll" title="Vers Téléchargement"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg" 
                                                                                       onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleuHover-e1464822759168.jpg'"
                                                                                       onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/basBleu-e1464822773139.jpg'"></a>
@@ -173,8 +180,8 @@
 
         <div class="divCentre">
             <a href="#loisirs" class="scroll" title="Vers Centres d'intérêt"><img src="<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg" 
-                                                                           onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRougeHover-e1464822716205.jpg'"
-                                                                           onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg'"></a>
+                                                                                  onMouseOver="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRougeHover-e1464822716205.jpg'"
+                                                                                  onMouseOut="this.src = '<?php echo bloginfo('url'); ?>/wp-content/uploads/2016/06/hautRouge-e1464822735469.jpg'"></a>
         </div>
     </div>
 </div>
